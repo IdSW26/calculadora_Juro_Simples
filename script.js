@@ -6,5 +6,6 @@ function calcula(){
 
     let juros1 = capital1 * porcentagem2 * tempo1;
     let montante1 = capital1 + juros1;
-    document.getElementById("montante").textContent= montante1
+    let montante2 = montante1.toFixed(2)
+    document.getElementById("montante").textContent= montante2
 }

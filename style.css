@@ -7,3 +7,13 @@ body{
 input{
     margin-top: 6px;
 }
+.beleza{
+    height: 200px;
+    float: left;
+    padding-left: 100px;
+}
+.calculadora{
+    height: 200px;
+    float: right;
+    padding-right: 100px;
+}

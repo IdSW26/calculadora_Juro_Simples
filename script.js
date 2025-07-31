@@ -8,4 +8,5 @@ function calcula(){
     let montante1 = capital1 + juros1;
     let montante2 = montante1.toFixed(2)
     document.getElementById("montante").textContent= montante2
+    document.getElementById("juros").textContent= juros1
 }
